@@ -32,41 +32,47 @@
     </symbol>
   </svg>
 
-<!-- Formulario de registro de usuario -->
-
+  <!-- Estructura: Formulario (Registro)-->
   <main class="form-signin w-100 m-auto">
 
     <form>
       <img class="mb-4" src="/img/Banner.png" alt="" width="300" height="200">
 
+      <!--Formulario - Registro de usuario-->
       <div class="d-flex justify-content-center">
         <h1 class="h3 mb-3 fw-normal">Registro de Usuario</h1>
       </div>
 
+      <!--Formulario - Número de identificación-->
       <div class="was-validated">
         <input type="number" class="form-control" id="validationIdentificacion" placeholder="Identificación" required>
         <div class="invalid-feedback">Escribir el número de Identificación</div>
       </div>
 
+      <!--Formulario - Nombres completos-->
       <div class="was-validated">
         <input type="text" class="form-control" id="nombres" placeholder="Nombres" required>
         <div class="invalid-feedback">Escribir los nombres completos </div>
       </div>
 
+      <!--Formulario - Apellidos completos-->
       <div class="was-validated">
         <input type="text" class="form-control" id="apellidos" placeholder="Apellidos" required>
         <div class="invalid-feedback">Escribir los apellidos completos</div>
       </div>
 
+      <!--Formulario - Dirección completa-->
       <div class="was-validated">
         <input type="text" class="form-control" id="direccion" placeholder="Direccion" required>
         <div class="invalid-feedback">Escribir la dirección completa</div>
       </div>
 
+      <!--Formulario - Número de teléfono-->
       <div class="was-validated">
         <input type="number" class="form-control" id="telefono" placeholder="+57 00000" required>
         <div class="invalid-feedback"> Escribir el número de teléfono</div>
 
+        <!--Formulario - Email-->
         <div class="was-validated">
           <div class="input-group has-validation">
             <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
@@ -75,11 +81,11 @@
           </div>
         </div>
 
-        <!-- Button trigger modal -->
+        <!--Formulario - Botón Registrarse -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           Registrarse</button>
 
-        <!-- Modal -->
+        <!-- Formulario - Botón Registro éxitoso -->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -90,6 +96,8 @@
               <div class="modal-body">
                 ¡Registro éxitoso!
               </div>
+
+              <!-- Formulario - Aviso de Aceptar -->
               <div class="modal-footer">
                 <a href="/index.html" class="btn btn-outline-primary" role="button">Aceptar</a>
               </div>
