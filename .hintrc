@@ -1,0 +1,50 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id": "off",
+        "duplicate-id-active": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-overflow-scrolling"
+        ]
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-allowed-attr": "off",
+        "aria-roles": "off",
+        "aria-valid-attr-value": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
